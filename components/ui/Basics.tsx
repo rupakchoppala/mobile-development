@@ -23,12 +23,12 @@ function Basics(): JSX.Element {
         My first react native app
         <Text style={styles.bold}>Example</Text>
       </Text>
+      <Image style={styles.image} source={require("../../assets/images/icon.png")}/> 
+       <Image style={styles.image} source={require("../../assets/images/icon.png")}/>
       <Image style={styles.image} source={require("../../assets/images/icon.png")}/>
       <Image style={styles.image} source={require("../../assets/images/icon.png")}/>
       <Image style={styles.image} source={require("../../assets/images/icon.png")}/>
-      <Image style={styles.image} source={require("../../assets/images/icon.png")}/>
-      <Image style={styles.image} source={require("../../assets/images/icon.png")}/>
-      <Image style={styles.image} source={require("../../assets/images/icon.png")}/>
+      <Image style={styles.image} source={require("../../assets/images/icon.png")}/> 
       <Image style={styles.image} source={require("../../assets/images/icon.png")}/>
       <Button color={"red"}   title="Click me" onPress={()=>setCount(count+1)}/>
       <Text style={styles.nextedText}>the count is {count}</Text>

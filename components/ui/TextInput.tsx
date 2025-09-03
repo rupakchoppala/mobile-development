@@ -4,7 +4,7 @@ function TextInputComponent(){
     const [value,setValue]=useState('');
     return (
         <View style={styles.container}>
-            <Text style={styles.headerText}>Texrt Input  component</Text>
+            <Text style={styles.headerText}>Text Input  component</Text>
             <TextInput style={styles.input} onChangeText={setValue} value={value} placeholder="Type here"/>
         </View>
     )
